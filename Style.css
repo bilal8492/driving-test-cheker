@@ -1,0 +1,93 @@
+body {
+  background-color:#d4c7c7;;
+}
+#age {
+  
+    padding: 20px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #000000;
+
+  background: #eadada;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#btn {
+    margin-top: 20px;
+    width: 30%;
+    margin-left: 300px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #ffffff;
+
+  /* Blue 1 */
+
+  border: 1px solid #2f80ed;
+
+  background: #6390c4;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#btn:hover{
+    cursor: hand;
+}
+#result{
+    
+    margin-top: 30px;
+    background: #C4C4C4;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+#emoji{
+  
+   width: 100px;
+   margin-left: 400px;
+  
+}
+h1{
+   text-align: center;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 42px;
+
+}
+#main{
+    display:  flex ;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 10%;
+
+}
+@media (max-width: 750px){
+    #emoji{
+        margin: auto;
+    }
+    #btn{
+        margin: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+}
