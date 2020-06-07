@@ -1,26 +1,19 @@
 body {
-  background-color:#d4c7c7;;
+  background-color: #d4c7c7;
 }
 #age {
-  
-    padding: 20px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 42px;
-
-  color: #000000;
-
-  background: #eadada;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;    
+    color: #000000;
+    background: #eadada;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 #btn {
-    margin-top: 20px;
-    width: 30%;
-    margin-left: 300px;
-
+  width: 30%;  
+  margin: 0 auto;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -38,56 +31,50 @@ body {
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#btn:hover{
-    cursor: hand; 
+#btn:hover {
+  cursor: hand;
 }
-#result{
-    
-    margin-top: 30px;
-    background: #C4C4C4;
+#result {
+  margin-top: 30px;
+  background: #c4c4c4;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
 
-color: #000000;
-
+  color: #000000;
 }
-#emoji{
-  
-   width: 100px;
-   margin-left: 400px;
-  
+#emoji {
+  width: 100px;
+  margin: 0 auto;
 }
-h1{
-   text-align: center;
+h1 {
+  text-align: center;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 42px;
-
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
 }
-#main{
-    display:  flex ;
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    margin-left: 30%;
-    margin-top: 10%;
-
+#main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10%;
 }
-@media (max-width: 750px){
-    #emoji{
-        margin: auto;
-    }
-    #btn{
-        margin: auto;
-        padding-left: 50px;
-        padding-right: 50px;
-        text-align: center;
-    } 
+@media (max-width: 750px) {
+  #emoji {
+    margin: auto;
+  }
+  #btn {
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
 }
