@@ -1,5 +1,5 @@
 function checkAge() {
-  var age = document.getElementById("age").value;
+  var age = document.getElementById("age").value; 
   if (age < 18) {
     document.getElementById("result").innerText =
       "sorry, you are too young to drive this car. powering off";
